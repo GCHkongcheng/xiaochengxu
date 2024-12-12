@@ -1,0 +1,32 @@
+<view class="calculator">
+  <input class="display" value="{{result}}" disabled/>
+  <view class="keys">
+    <view class="row">
+      <button bindtap="inputNumber" data-number="1">1</button>
+      <button bindtap="inputNumber" data-number="2">2</button>
+      <button bindtap="inputNumber" data-number="3">3</button>
+      <button bindtap="inputOperator" data-operator="+">+</button>
+    </view>
+    <view class="row">
+      <button bindtap="inputNumber" data-number="4">4</button>
+      <button bindtap="inputNumber" data-number="5">5</button>
+      <button bindtap="inputNumber" data-number="6">6</button>
+      <button bindtap="inputOperator" data-operator="-">-</button>
+    </view>
+    <view class="row">
+      <button bindtap="inputNumber" data-number="7">7</button>
+      <button bindtap="inputNumber" data-number="8">8</button>
+      <button bindtap="inputNumber" data-number="9">9</button>
+      <button bindtap="inputOperator" data-operator="*">×</button>
+    </view>
+    <view class="row">
+      <button bindtap="inputNumber" data-number="0">0</button>
+      <button bindtap="point">.</button>
+      <button bindtap="clear">C</button>
+      <button bindtap="inputOperator" data-operator="/">÷</button>
+    </view>
+    <view class="row equals-row">
+      <button bindtap="equals" class="equals">=</button>
+    </view>
+  </view>
+</view>
