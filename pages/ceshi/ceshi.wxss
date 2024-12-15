@@ -1,0 +1,18 @@
+.container{
+  display: flex;
+  height:100%;
+}
+.kuang{
+  border: 1px solid #cccccc; 
+  margin-bottom: 10px;
+}
+button {
+  width: 80%; 
+  height: 40px; 
+  margin-top: 30px;
+}
+.buttom{
+  position: absolute;
+  width: 95%;
+  bottom: 30px;
+}

@@ -13,11 +13,17 @@
     "minified": true,
     "enhance": true,
     "showShadowRootInWxmlPanel": true,
-    "packNpmRelationList": [],
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
       "outputPath": ""
+    },
+    "packNpmManually": true,
+    "packNpmRelationList": [],
+    "condition": false,
+    "editorSetting": {
+      "tabIndent": "insertSpaces",
+      "tabSize": 2
     }
   },
   "condition": {},

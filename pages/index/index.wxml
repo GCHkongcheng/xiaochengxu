@@ -16,7 +16,7 @@
   <button bindtap="drawLuckyNumber" class="buttonrow">今日幸运数字</button>
   <button bindtap="click" class="buttonrow">无聊</button>
   <button bindtap="hanglieshi" class="buttonrow">行列式计算</button>
-  <button class="buttonrow">开发中</button>
+  <button bindtap="jisuan" class="buttonrow">高级计算</button>
   <button class="buttonrow">开发中</button>
   <button class="buttonrow">开发中</button>
   <button bindtap="yincang" class="buttonrow">开发中</button>

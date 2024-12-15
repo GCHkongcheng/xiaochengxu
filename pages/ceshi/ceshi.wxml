@@ -1,0 +1,12 @@
+<view class="container">
+ <view>
+        <text>表达式</text>
+          <input class="kuang" type="text" id="expr1" value=" " bindinput="onInput"/>
+        <text>结果:</text>
+        <br/>
+          <text>{{result}}</text>
+  <button bindtap="calculate">计算</button>
+</view>
+<view class="buttom">
+tips:这是一个调用math.js web service的计算器，计算结果为网页提供，输入例如3+sqrt(4)的表达式</view>
+</view>

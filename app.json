@@ -8,7 +8,8 @@
     "pages/test/test",
     "pages/user/user",
     "pages/hanglieshi/hanglieshi",
-    "pages/yincang/yincang"
+    "pages/yincang/yincang",
+    "pages/ceshi/ceshi"
   ],
   "window": {
     "navigationBarTextStyle":"black",
