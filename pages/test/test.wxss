@@ -1,0 +1,38 @@
+.history-container {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+}
+.history-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.history-item {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+}
+.click-btn {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+  margin: 20px;
+  padding: 20px; /* 增加内边距，使按钮更大 */
+  border-radius: 10px; /* 按钮圆角 */
+  margin-top: 80px;
+}
+.cancel-btn{
+  display: flex;
+  width: 1px; /* 设置按钮宽度 */
+  height: 30px; /* 设置按钮高度 */
+  padding: 0; /* 移除内边距 */
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+  background-color: #EE0000; /* 背景颜色 */
+  color: white; /* 字体颜色 */
+  margin-top: 30px
+}

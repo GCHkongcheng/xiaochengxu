@@ -1,0 +1,21 @@
+<view class="container">
+  <view wx:if="{{showContent}}">
+    <!-- 需要验证通过才能看到的内容 -->
+    <image src="https://s2.loli.net/2024/12/14/1hiQwCJ7r8zeRb2.jpg"></image>
+  </view>
+
+  <view wx:if="{{!showContent}}" class="input-container">
+    <!-- 输入密码的部分 -->
+    <input 
+      type="password" 
+      placeholder="请输入密码" 
+      bindinput="onPasswordInput" 
+      value="{{password}}" 
+    />
+    <button bindtap="onSubmitPassword">提交</button>
+  </view>
+
+  <view wx:if="{{errorMessage}}">
+    <text style="color: red;">{{errorMessage}}</text>
+  </view>
+</view>

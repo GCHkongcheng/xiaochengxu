@@ -1,24 +1,37 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/calculator/calculator",
+    "pages/word-count/word-count" ,
+    "pages/luckynumber/luckynumber",
+    "pages/click/click",
+    "pages/test/test",
+    "pages/user/user",
+    "pages/hanglieshi/hanglieshi",
+    "pages/yincang/yincang"
   ],
   "window": {
-    "navigationBarTextStyle": "black",
-    "navigationStyle": "custom"
+    "navigationBarTextStyle":"black",
+    "navigationStyle":"default",
+    "navigationBarTitleText": "小工具",
+    "navigationBarBackgroundColor": "#F0FFFF",
+    "enablePullDownRefresh": false
   },
   "style": "v2",
-  "renderer": "skyline",
-  "rendererOptions": {
-    "skyline": {
-      "defaultDisplayBlock": true,
-      "defaultContentBox": true,
-      "tagNameStyleIsolation": "legacy",
-      "disableABTest": true,
-      "sdkVersionBegin": "3.0.0",
-      "sdkVersionEnd": "15.255.255"
-    }
-  },
   "componentFramework": "glass-easel",
   "sitemapLocation": "sitemap.json",
-  "lazyCodeLoading": "requiredComponents"
+  "lazyCodeLoading": "requiredComponents",
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "icon/shouye0.png",
+      "selectedIconPath": "icon/shouye.png"
+    },{
+      "pagePath": "pages/user/user",
+      "text": "用户",
+      "iconPath": "icon/wode0.png",
+      "selectedIconPath": "icon/wode.png"
+    }]
+  }
 }

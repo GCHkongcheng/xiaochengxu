@@ -1,0 +1,17 @@
+.container {
+  padding: 20px;
+}
+
+.text-area {
+  height: 400px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+button {
+  margin-right: 10px;
+}
+
+view {
+  margin-top: 10px;
+}

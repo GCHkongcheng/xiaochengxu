@@ -1,0 +1,32 @@
+<view class="container">
+  <!-- 选择行列式阶数 -->
+  <picker mode="selector" range="{{range}}" bindchange="onPickerChange" value="{{order !== null ? range.indexOf(order) : -1}}">
+    <text>选择行列式阶数：{{order !== null ? order : '请选择'}}</text>
+  </picker>
+
+  <!-- 显示矩阵输入框 -->
+  <view class="matrix-container" wx:if="{{matrix.length > 0}}">
+    <view class="matrix-row" wx:for="{{matrix}}" wx:key="rowIndex" wx:for-index="rowIndex">
+      <view class="matrix-cell" wx:for="{{item}}" wx:key="colIndex" wx:for-index="colIndex">
+        <input class="matrix-input" type="number" 
+               data-row="{{rowIndex}}" 
+               data-col="{{colIndex}}" 
+               bindinput="onInput" 
+               value="{{item}}" />
+      </view>
+    </view>
+  </view>
+
+  <!-- 如果矩阵为空，提示选择行列式阶数 -->
+  <view class="matrix-container" wx:else>
+    <text>请选择行列式阶数</text>
+  </view>
+
+  <!-- 计算按钮 -->
+  <button bindtap="calculateDeterminant">计算行列式</button>
+
+  <!-- 显示计算结果 -->
+  <view class="result" wx:if="{{result}}">
+    行列式的结果是: {{result}}
+  </view>
+</view>

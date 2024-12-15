@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 24px;
+  color: #333;
+}
+.small-text {
+  font-size: 10px; /* 可以设置为你需要的任何大小 */
+  color:rgb(127, 150, 255)
+}
+.line-break {
+  white-space: pre-line; /* 保留空白符序列，但是正常换行 */
+}
+.header {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+}

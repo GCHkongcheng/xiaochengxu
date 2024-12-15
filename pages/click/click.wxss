@@ -1,0 +1,33 @@
+/* page.wxss */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  margin: 10px;
+}
+.large-font {
+  font-size: 40px; /* 增大字体大小 */
+  line-height: 200px;
+}
+.click{
+  border-radius: 50%; /* 半径为50%，使得元素变为圆形 */
+  width: 100px; /* 按钮的宽度 */
+  height: 150px; /* 按钮的高度，设置为与宽度相同以确保圆形 */
+  border: none; /* 去除边框 */
+  padding: 40px; /* 根据需要调整内边距 */
+  text-align: center; /* 文字居中 */
+  line-height: 65px; /* 行高设置为高度减去两倍内边距 */
+}
+.zuoxia{
+  position: absolute; /* 设置为绝对定位 */
+  bottom: 15px; /* 距离底部0距离 */
+  left: 5px; /* 距离左边0距离 */
+}
+.youxia{
+  position: absolute; /* 设置为绝对定位 */
+  bottom: 15px; /* 距离底部0距离 */
+  right: 5px; /* 距离左边0距离 */
+}

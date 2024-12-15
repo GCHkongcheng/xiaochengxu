@@ -1,0 +1,8 @@
+<!-- page.wxml -->
+<view class="container">
+  <text class="large-font"> {{count}}</text>
+  <button bindtap="onIncrement" class="click">点击</button>
+  <button bindtap="onClear" class="zuoxia">清空</button>
+  <button bindtap="test" class="youxia">手速测试</button>
+</view>
+

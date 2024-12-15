@@ -1,0 +1,19 @@
+<!-- pages/index/index.wxml -->
+<view class="container">
+  <!-- <view class="title">手速测试</view> -->
+  <button bindtap="startTest" class="start-btn" hidden="{{testStarted}}">开始测试</button>
+  <view class="timer" hidden="{{!testStarted}}">
+    <text>{{ timer }}秒</text>
+  </view>
+  <view class="click-area" hidden="{{!testStarted}}">
+    <button bindtap="countClicks" class="click-btn">点击这里</button>
+    <button bindtap="cancelTest" class="cancel-btn">取消</button>
+    <text class="clicks-count">点击次数：{{ clicks }}</text>
+  </view>
+  <view class="result">
+    <text hidden="{{!showResult}}">手速：{{ clicksPerSecond }} 次/秒</text>
+  </view>
+    <view>
+    <text hidden="{{testStarted}}">历史最佳：{{ historyBest ? historyBest : '暂无' }} 次/秒</text>
+  </view>
+</view>
