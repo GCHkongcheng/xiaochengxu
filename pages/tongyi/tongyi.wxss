@@ -1,0 +1,26 @@
+.container{
+  display: flex;
+  height:100%;
+}
+.jieguo {
+  border: 1px solid black; 
+  box-sizing: border-box; 
+  height:600rpx;
+  width:80%;
+}
+.kuang{
+  margin-top: 200rpx;
+  border: 1px solid #cccccc; 
+  box-sizing: border-box; 
+  height:40px;
+  width:80%;
+}
+button {
+  margin-top: 50rpx;
+}
+.buttom {
+  position: absolute;
+  width: 95%;
+  bottom: 30px;
+  margin-left: 175px;
+}

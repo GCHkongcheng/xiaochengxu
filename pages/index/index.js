@@ -36,9 +36,19 @@ Page({
       url: '/pages/yincang/yincang'
     });
   },
-  jisuan: function() {
+  aichat: function() {
     wx.navigateTo({
-      url: '/pages/ceshi/ceshi'
+      url: '/pages/aichat/aichat'
+    });
+  },
+  yiyan: function() {
+    wx.navigateTo({
+      url: '/pages/yiyan/yiyan'
+    });
+  },
+  jinzhi: function() {
+    wx.navigateTo({
+      url: '/pages/jinzhi/jinzhi'
     });
   }
 });

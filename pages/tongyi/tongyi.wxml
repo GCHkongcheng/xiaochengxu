@@ -1,0 +1,9 @@
+<view class="container">
+    <textarea class="jieguo" disabled>{{result}}</textarea>
+    <view class="kuang">
+      <input type="text" placeholder="由此输入" bindinput="onInput" />
+    <button bindtap="fetchApiData">发送</button>
+</view>
+<view class="buttom">
+tips:通义模型，每天有次数上限</view>
+</view>

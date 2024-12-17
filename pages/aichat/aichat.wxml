@@ -1,0 +1,19 @@
+<!-- index.wxml -->
+<view class="container">
+  <scroll-view class="chat-container" scroll-y="true">
+    <!-- 只显示最新的AI回答 -->
+    <view class="message" wx:if="{{messages.length > 0 && messages[messages.length - 1].role === 'assistant'}}">
+      <text class="message-content">{{messages[messages.length - 1].content}}</text>
+    </view>
+  </scroll-view>
+  <view class="input-container">
+    <input class="input-text" type="text" value="{{inputText}}" bindinput="handleInput" />
+    <button class="send-button" bindtap="sendMessage">发送</button>
+  </view>
+  <view class="buttom">
+tips:部分功能由微信对话开放平台提供
+<navigator url="/pages/tongyi/tongyi" open-type="navigate">
+  <text style="color: rgb(0, 110, 255);">通义模型</text>
+</navigator>
+</view>
+</view>

@@ -2,7 +2,4 @@
   <view class="result" style="line-height: 80px;">{{ luckyNumber }}</view>
   <view><br/></view>
   <button bindtap="drawLuckyNumber">强制刷新</button>
-  <view class="header">
-    <button bindtap="goBack">返回</button>
-  </view>
 </view>

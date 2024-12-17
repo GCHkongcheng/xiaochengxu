@@ -1,0 +1,17 @@
+<view class="container">
+  <view class="input-group">
+    <text class="label">输入数值:</text>
+    <input type="text" class="input-field" placeholder="请输入数值" bindinput="onInput"/>
+    <picker mode="selector" range="{{range}}" value="{{rangeIndex}}" bindchange="onRangeChange">
+      <view class="selector">{{range[rangeIndex]}}</view>
+    </picker>
+  </view>
+  <view class="input-group">
+    <text class="label">转换为:</text>
+    <picker mode="selector" range="{{targetRange}}" value="{{targetRangeIndex}}" bindchange="onTargetRangeChange">
+      <view class="selector">{{targetRange[targetRangeIndex]}}</view>
+    </picker>
+  </view>
+  <button class="convert-button" bindtap="convert">转换</button>
+  <view class="result">{{result}}</view>
+</view>

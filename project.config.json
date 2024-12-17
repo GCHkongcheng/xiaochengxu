@@ -20,7 +20,7 @@
     },
     "packNpmManually": true,
     "packNpmRelationList": [],
-    "condition": false,
+    "condition": true,
     "editorSetting": {
       "tabIndent": "insertSpaces",
       "tabSize": 2
@@ -30,5 +30,8 @@
   "editorSetting": {
     "tabIndent": "insertSpaces",
     "tabSize": 2
+  },
+  "simulatorPluginLibVersion": {
+    "wxext14566970e7e9f62": "3.6.5-10"
   }
 }

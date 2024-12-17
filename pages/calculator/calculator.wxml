@@ -29,6 +29,9 @@
       <button bindtap="equals" class="equals">=</button>
     </view>
   </view>
+  <navigator class="buttom" url="/pages/ceshi/ceshi" open-type="navigate">
+  <text style="color: rgb(0, 110, 255);">高级计算</text>
+</navigator>
 </view>
 
 

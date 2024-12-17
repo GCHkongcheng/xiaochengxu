@@ -3,17 +3,19 @@
   height:100%;
 }
 .kuang{
+  width:80%;
+  height:100px;
   border: 1px solid #cccccc; 
-  margin-bottom: 10px;
   box-sizing: border-box; 
 }
 button {
   width: 80%; 
   height: 40px; 
-  margin-top: 30px;
+  margin-top: 80px;
 }
 .buttom{
   position: absolute;
   width: 95%;
   bottom: 30px;
+  margin-left:250px;
 }

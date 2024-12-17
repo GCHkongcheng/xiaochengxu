@@ -18,8 +18,3 @@
 .line-break {
   white-space: pre-line; /* 保留空白符序列，但是正常换行 */
 }
-.header {
-  display: flex;
-  justify-content: flex-start;
-  padding: 10px;
-}

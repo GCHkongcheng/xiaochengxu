@@ -1,0 +1,8 @@
+<view class="container">
+ <view class="kuang">
+          <text user-select>{{result}}</text>
+        </view>
+  <button bindtap="showyiyan">生成</button>
+  <view class="buttom">
+tips:数据来源于网络</view>
+</view>

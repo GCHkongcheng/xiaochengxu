@@ -3,5 +3,25 @@
   "projectname": "01",
   "setting": {
     "compileHotReLoad": true
+  },
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/aichat/aichat",
+          "pathName": "pages/aichat/aichat",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "1",
+          "pathName": "pages/tongyi/tongyi",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        }
+      ]
+    }
   }
 }

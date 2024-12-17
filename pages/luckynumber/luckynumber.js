@@ -32,10 +32,5 @@ Page({
   drawLuckyNumber: function() {
     // 可以保留这个函数用于手动刷新
     this.updateLuckyNumber();
-  },
-  goBack: function() {
-    wx.navigateBack({
-      delta: 1 // 返回的页面数，如果 delta 大于现有页面数，则返回到首页
-    });
   }
 });
